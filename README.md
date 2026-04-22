@@ -61,7 +61,7 @@ BIOS (Hardware ROM)
                    └──> shell.c (run_shell)
                          ├──> keyboard.c (get_key / polling)
                          └──> fs.c (fs_ls if "ls" is typed)
----
+```
 
 ## 💻 Compatibility Note
 
