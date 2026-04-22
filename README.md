@@ -76,3 +76,8 @@ You must have the cross-compilation toolchain and emulator installed. Open your 
 
 ```bash
 brew install x86_64-elf-gcc x86_64-elf-binutils nasm qemu
+```
+
+### 2. Compile and run
+make
+qemu-system-i386 -drive format=raw,file=os-image.bin
